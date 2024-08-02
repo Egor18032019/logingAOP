@@ -20,4 +20,4 @@ curl -i -X POST http://127.0.0.1:8080/order -H 'Content-Type: application/json' 
 curl -i -X GET http://localhost:8080/order/100000
 ```
 
-3. Проверить есть ли логи в файле [тут](/logs/application.log) 
+3. Проверить есть ли логи в файле [application.log](/logs/application.log) 
