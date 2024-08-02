@@ -21,8 +21,7 @@ public class Order extends AbstractBaseEntity {
     @Column()
     private String status; // todo enum сделать
 
+    @Column()
+    private Long userId;
 
-    @ManyToOne
-    @JoinColumn(name = "user_id")
-    private User user;
 }

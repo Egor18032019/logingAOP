@@ -21,7 +21,7 @@ public class User extends AbstractBaseEntity {
     @Column()
     private String email;
     //Настройте связь между пользователями и их заказами (один ко многим).
-    @OneToMany
-    @JoinColumn(name = "order_id")
+    @OneToMany(cascade = CascadeType.ALL)
+    @JoinColumn(name = "userId", referencedColumnName = "id")
     private List<Order> orders;
 }
