@@ -1,0 +1,138 @@
+ 2024-08-02 16:30:08 INFO  LogingApplication:17 - Запуск приложения с аргументами []
+2024-08-02 16:30:08 WARN  LogingApplication:19 - Запуск приложения с аргументами []
+2024-08-02 16:30:08 INFO  LogingApplication:50 - Starting LogingApplication using Java 21.0.3 with PID 42918 (/home/egor/git/Java/loging/target/classes started by egor in /home/egor/git/Java/loging)
+2024-08-02 16:30:08 INFO  LogingApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2024-08-02 16:30:09 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-02 16:30:09 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 53 ms. Found 2 JPA repository interfaces.
+2024-08-02 16:30:09 INFO  TomcatWebServer:111 - Tomcat initialized with port 8080 (http)
+2024-08-02 16:30:10 INFO  ServletWebServerApplicationContext:296 - Root WebApplicationContext: initialization completed in 1227 ms
+2024-08-02 16:30:10 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-02 16:30:10 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-02 16:30:10 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-08-02 16:30:10 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-02 16:30:10 INFO  HikariDataSource:109 - HikariPool-1 - Starting...
+2024-08-02 16:30:10 INFO  HikariPool:554 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@76ac68b0
+2024-08-02 16:30:10 INFO  HikariDataSource:122 - HikariPool-1 - Start completed.
+2024-08-02 16:30:10 WARN  Dialect:354 - HHH000511: The 11.22.0 version for [org.hibernate.dialect.PostgreSQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 12.0.0. Check the community dialects project for available legacy versions.
+2024-08-02 16:30:10 WARN  deprecation:153 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-02 16:30:11 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-02 16:30:11 WARN  SqlExceptionHelper:238 - SQL Warning Code: 0, SQLState: 00000
+2024-08-02 16:30:11 WARN  SqlExceptionHelper:239 - relation "orders" does not exist, skipping
+2024-08-02 16:30:11 WARN  SqlExceptionHelper:238 - SQL Warning Code: 0, SQLState: 00000
+2024-08-02 16:30:11 WARN  SqlExceptionHelper:239 - table "orders" does not exist, skipping
+2024-08-02 16:30:11 WARN  SqlExceptionHelper:238 - SQL Warning Code: 0, SQLState: 00000
+2024-08-02 16:30:11 WARN  SqlExceptionHelper:239 - table "users" does not exist, skipping
+2024-08-02 16:30:11 WARN  SqlExceptionHelper:238 - SQL Warning Code: 0, SQLState: 00000
+2024-08-02 16:30:11 WARN  SqlExceptionHelper:239 - sequence "global_seq" does not exist, skipping
+2024-08-02 16:30:11 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-02 16:30:11 WARN  JpaBaseConfiguration$JpaWebConfiguration:236 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-02 16:30:12 INFO  TomcatWebServer:243 - Tomcat started on port 8080 (http) with context path '/'
+2024-08-02 16:30:12 INFO  LogingApplication:56 - Started LogingApplication in 3.758 seconds (process running for 4.274)
+2024-08-02 16:31:04 INFO  DispatcherServlet:532 - Initializing Servlet 'dispatcherServlet'
+2024-08-02 16:31:04 INFO  DispatcherServlet:554 - Completed initialization in 1 ms
+2024-08-02 16:39:45 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-02 16:39:45 INFO  HikariDataSource:349 - HikariPool-1 - Shutdown initiated...
+2024-08-02 16:39:45 INFO  HikariDataSource:351 - HikariPool-1 - Shutdown completed.
+2024-08-02 16:39:48 INFO  LogingApplication:17 - Запуск приложения с аргументами []
+2024-08-02 16:39:48 WARN  LogingApplication:19 - Запуск приложения с аргументами []
+2024-08-02 16:39:48 INFO  LogingApplication:50 - Starting LogingApplication using Java 21.0.3 with PID 44136 (/home/egor/git/Java/loging/target/classes started by egor in /home/egor/git/Java/loging)
+2024-08-02 16:39:48 INFO  LogingApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2024-08-02 16:39:49 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-02 16:39:49 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 48 ms. Found 2 JPA repository interfaces.
+2024-08-02 16:39:50 INFO  TomcatWebServer:111 - Tomcat initialized with port 8080 (http)
+2024-08-02 16:39:50 INFO  ServletWebServerApplicationContext:296 - Root WebApplicationContext: initialization completed in 1380 ms
+2024-08-02 16:39:50 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-02 16:39:50 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-02 16:39:50 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-08-02 16:39:50 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-02 16:39:50 INFO  HikariDataSource:109 - HikariPool-1 - Starting...
+2024-08-02 16:39:50 INFO  HikariPool:554 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3e151e1f
+2024-08-02 16:39:50 INFO  HikariDataSource:122 - HikariPool-1 - Start completed.
+2024-08-02 16:39:50 WARN  Dialect:354 - HHH000511: The 11.22.0 version for [org.hibernate.dialect.PostgreSQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 12.0.0. Check the community dialects project for available legacy versions.
+2024-08-02 16:39:50 WARN  deprecation:153 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-02 16:39:51 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-02 16:39:51 WARN  SqlExceptionHelper:238 - SQL Warning Code: 0, SQLState: 00000
+2024-08-02 16:39:51 WARN  SqlExceptionHelper:239 - relation "orders" does not exist, skipping
+2024-08-02 16:39:51 WARN  SqlExceptionHelper:238 - SQL Warning Code: 0, SQLState: 00000
+2024-08-02 16:39:51 WARN  SqlExceptionHelper:239 - table "orders" does not exist, skipping
+2024-08-02 16:39:51 WARN  SqlExceptionHelper:238 - SQL Warning Code: 0, SQLState: 00000
+2024-08-02 16:39:51 WARN  SqlExceptionHelper:239 - table "users" does not exist, skipping
+2024-08-02 16:39:51 WARN  SqlExceptionHelper:238 - SQL Warning Code: 0, SQLState: 00000
+2024-08-02 16:39:51 WARN  SqlExceptionHelper:239 - sequence "global_seq" does not exist, skipping
+2024-08-02 16:39:51 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-02 16:39:52 WARN  JpaBaseConfiguration$JpaWebConfiguration:236 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-02 16:39:52 INFO  TomcatWebServer:243 - Tomcat started on port 8080 (http) with context path '/'
+2024-08-02 16:39:52 INFO  LogingApplication:56 - Started LogingApplication in 4.055 seconds (process running for 4.517)
+2024-08-02 16:39:58 INFO  DispatcherServlet:532 - Initializing Servlet 'dispatcherServlet'
+2024-08-02 16:39:58 INFO  DispatcherServlet:554 - Completed initialization in 2 ms
+2024-08-02 16:39:58 INFO  LoggingAspect:25 - Выполнение метода createUser с аргументами [UserRequest(name=All done !, email=email@mail.ru)]
+2024-08-02 16:39:58 INFO  LoggingAspect:31 - Метод createUser выполнился за 61 мс с результатом com.t1.loging.store.User@cf5203e
+2024-08-02 16:41:35 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-02 16:41:35 INFO  HikariDataSource:349 - HikariPool-1 - Shutdown initiated...
+2024-08-02 16:41:35 INFO  HikariDataSource:351 - HikariPool-1 - Shutdown completed.
+2024-08-02 16:43:41 INFO  LogingApplication:17 - Запуск приложения с аргументами []
+2024-08-02 16:43:41 WARN  LogingApplication:19 - Запуск приложения с аргументами []
+2024-08-02 16:43:41 INFO  LogingApplication:50 - Starting LogingApplication using Java 21.0.3 with PID 44550 (/home/egor/git/Java/loging/target/classes started by egor in /home/egor/git/Java/loging)
+2024-08-02 16:43:41 INFO  LogingApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2024-08-02 16:43:42 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-02 16:43:42 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 50 ms. Found 2 JPA repository interfaces.
+2024-08-02 16:43:42 INFO  TomcatWebServer:111 - Tomcat initialized with port 8080 (http)
+2024-08-02 16:43:42 INFO  ServletWebServerApplicationContext:296 - Root WebApplicationContext: initialization completed in 1350 ms
+2024-08-02 16:43:43 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-02 16:43:43 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-02 16:43:43 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-08-02 16:43:43 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-02 16:43:43 INFO  HikariDataSource:109 - HikariPool-1 - Starting...
+2024-08-02 16:43:43 INFO  HikariPool:554 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3e151e1f
+2024-08-02 16:43:43 INFO  HikariDataSource:122 - HikariPool-1 - Start completed.
+2024-08-02 16:43:43 WARN  Dialect:354 - HHH000511: The 11.22.0 version for [org.hibernate.dialect.PostgreSQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 12.0.0. Check the community dialects project for available legacy versions.
+2024-08-02 16:43:43 WARN  deprecation:153 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-02 16:43:44 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-02 16:43:44 WARN  SqlExceptionHelper:238 - SQL Warning Code: 0, SQLState: 00000
+2024-08-02 16:43:44 WARN  SqlExceptionHelper:239 - relation "orders" does not exist, skipping
+2024-08-02 16:43:44 WARN  SqlExceptionHelper:238 - SQL Warning Code: 0, SQLState: 00000
+2024-08-02 16:43:44 WARN  SqlExceptionHelper:239 - table "orders" does not exist, skipping
+2024-08-02 16:43:44 WARN  SqlExceptionHelper:238 - SQL Warning Code: 0, SQLState: 00000
+2024-08-02 16:43:44 WARN  SqlExceptionHelper:239 - table "users" does not exist, skipping
+2024-08-02 16:43:44 WARN  SqlExceptionHelper:238 - SQL Warning Code: 0, SQLState: 00000
+2024-08-02 16:43:44 WARN  SqlExceptionHelper:239 - sequence "global_seq" does not exist, skipping
+2024-08-02 16:43:44 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-02 16:43:44 WARN  JpaBaseConfiguration$JpaWebConfiguration:236 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-02 16:43:45 INFO  TomcatWebServer:243 - Tomcat started on port 8080 (http) with context path '/'
+2024-08-02 16:43:45 INFO  LogingApplication:56 - Started LogingApplication in 4.056 seconds (process running for 4.52)
+2024-08-02 16:44:31 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-02 16:44:31 INFO  HikariDataSource:349 - HikariPool-1 - Shutdown initiated...
+2024-08-02 16:44:31 INFO  HikariDataSource:351 - HikariPool-1 - Shutdown completed.
+2024-08-02 16:44:56 INFO  LogingApplication:17 - Запуск приложения с аргументами []
+2024-08-02 16:44:56 WARN  LogingApplication:19 - Запуск приложения с аргументами []
+2024-08-02 16:44:57 INFO  LogingApplication:50 - Starting LogingApplication using Java 21.0.3 with PID 44807 (/home/egor/git/Java/loging/target/classes started by egor in /home/egor/git/Java/loging)
+2024-08-02 16:44:57 INFO  LogingApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2024-08-02 16:44:57 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-02 16:44:57 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 49 ms. Found 2 JPA repository interfaces.
+2024-08-02 16:44:58 INFO  TomcatWebServer:111 - Tomcat initialized with port 8080 (http)
+2024-08-02 16:44:58 INFO  ServletWebServerApplicationContext:296 - Root WebApplicationContext: initialization completed in 1322 ms
+2024-08-02 16:44:58 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-02 16:44:58 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-02 16:44:58 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-08-02 16:44:58 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-02 16:44:58 INFO  HikariDataSource:109 - HikariPool-1 - Starting...
+2024-08-02 16:44:59 INFO  HikariPool:554 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5e98032e
+2024-08-02 16:44:59 INFO  HikariDataSource:122 - HikariPool-1 - Start completed.
+2024-08-02 16:44:59 WARN  Dialect:354 - HHH000511: The 11.22.0 version for [org.hibernate.dialect.PostgreSQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 12.0.0. Check the community dialects project for available legacy versions.
+2024-08-02 16:44:59 WARN  deprecation:153 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-02 16:44:59 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-02 16:44:59 WARN  SqlExceptionHelper:238 - SQL Warning Code: 0, SQLState: 00000
+2024-08-02 16:44:59 WARN  SqlExceptionHelper:239 - relation "orders" does not exist, skipping
+2024-08-02 16:44:59 WARN  SqlExceptionHelper:238 - SQL Warning Code: 0, SQLState: 00000
+2024-08-02 16:44:59 WARN  SqlExceptionHelper:239 - table "orders" does not exist, skipping
+2024-08-02 16:44:59 WARN  SqlExceptionHelper:238 - SQL Warning Code: 0, SQLState: 00000
+2024-08-02 16:44:59 WARN  SqlExceptionHelper:239 - table "users" does not exist, skipping
+2024-08-02 16:44:59 WARN  SqlExceptionHelper:238 - SQL Warning Code: 0, SQLState: 00000
+2024-08-02 16:44:59 WARN  SqlExceptionHelper:239 - sequence "global_seq" does not exist, skipping
+2024-08-02 16:44:59 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-02 16:45:00 WARN  JpaBaseConfiguration$JpaWebConfiguration:236 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-02 16:45:00 INFO  TomcatWebServer:243 - Tomcat started on port 8080 (http) with context path '/'
+2024-08-02 16:45:00 INFO  LogingApplication:56 - Started LogingApplication in 3.942 seconds (process running for 4.421)
+2024-08-02 16:46:52 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-02 16:46:52 INFO  HikariDataSource:349 - HikariPool-1 - Shutdown initiated...
+2024-08-02 16:46:52 INFO  HikariDataSource:351 - HikariPool-1 - Shutdown completed.
